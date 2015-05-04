@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>过滤效果</title>
+	<style>
+		#mydiv{
+			width: 100px;
+			height: 100px;
+			background: red;
+			-webkit-transition:width 2s;
+			transition:width 2s;
+		}
+		#mydiv:hover{
+			width:400px;
+		}
+	</style>
+</head>
+<body>
+	<div id="mydiv">
+		
+	</div>
+	<script>
+	document.getElementById("mydiv").addEventListener("transition",function(e){
+		this.innerHTML = 'aaaa'
+	})
+	</script>
+</body>
+</html>

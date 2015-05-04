@@ -1,0 +1,232 @@
+h1,h3,p,a,button{
+	font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB";
+}
+
+.onepage{
+	height: 750px;
+}
+.onepage-bg{
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	background-position: center center;
+	background-size: cover;
+}
+#onepagebg{
+	background-image: url('/bootstrap/images/mushi.jpg');
+}
+.headh1content{
+	margin-top: 150px;
+	line-height: 75px;
+}
+.title-text{
+	margin-left: 50px;
+}
+.headfontsize h1{
+	font-size: 50pt;
+	color: #fff;
+}
+.headfontsize p{
+	color: #fff;
+}
+
+
+.twopage{
+	padding: 2px 0 0 2px;
+	height: auto;
+	background: #ccc url('images/two.png');
+	position: relative;
+}
+.twopage-text{
+	text-align: center;
+	width: 100%;
+}
+.twopage-text-h1{
+	margin-left: 120px;
+	letter-spacing: 2px;
+	margin-top: 80px;
+	margin-bottom: 0px;
+	padding: 20px 0 0 0 ;
+}
+.twopage-text-h1 img{
+	width: 120px;
+	margin-top: -20px;
+}
+.twopage .row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.twopage-courses{
+	float: left;
+	background:#fff;
+	padding: 0 2px 2px 0;
+	position: relative;
+	overflow: hidden;
+}
+.twopage-courses>a{
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.classicon{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	opacity: 0;
+}
+.classicon:hover{
+	background:#1eb450;
+	opacity: 0.9;
+	transition:opacity 1s;
+	-webkit-transition:opacity 1s;
+}
+.twopagebtn{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.twopagebtn .btn-lg{
+	font-size: 25px;
+}
+#twopage-easy{
+	margin: 50px 0;
+	margin-bottom: 150px;
+}
+
+.threepage{
+	position: absolute;
+	width: 100%;
+	height: 800px;
+}
+.threepage-bg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#threepagebg{
+	background-image: url("../images/three.jpg");
+}
+.threepagecontent{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.threepagetext{
+	margin-top: 100px;
+}
+.threepagetext p{
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 32px;
+	color: #fff;
+}
+.threepagebtncontent{
+	margin-top: 450px;
+	font-size: 25px;
+}
+.fourpage{
+	height: 700px;
+	background:#6f6;
+	margin-top: 800px;
+}
+.coursexingging-text{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-top: 100px;
+}
+.coursexingging-text p{
+	margin-top: 25px;
+	font-size: 20px;
+}
+.fourpage .carousel{
+	margin-top: 100px;
+}
+.carousel-control.left,.carousel-control.right{
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-inner .item img{
+	margin: 0 auto;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: -20%;
+  /*margin-left: 10px;*/
+}
+
+.fivepage-bg{
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	background-position: center center;
+	background-size: cover;
+}
+#fivepagebg{
+	background-image: url(../images/five.jpg);
+}
+
+.footertext{
+	margin-top: 55px;
+	width: 100%;
+	color:#fff;
+	font-size: 20px;
+	text-align: center;
+}
+.footerbtncenter{
+	margin-top: 100px;
+	text-align: center;
+}
+.queyeicon:hover{
+	border: 2px solid #d9edf7;
+}
+.footertextbtn{
+	margin-top: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+.side-nav{
+	position: fixed;
+	top: 45%;
+	right: 20px;
+	z-index: 1;
+}
+.side-nav ul.nav-side-nav >li{
+	display: block;
+	line-height: 1.45em;
+	margin: 0;
+	padding: 8px 0;
+}
+.side-nav ul.nav-side-nav >li>a{
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #e2e2e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
